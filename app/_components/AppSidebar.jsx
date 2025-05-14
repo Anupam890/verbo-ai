@@ -89,18 +89,7 @@ const AppSidebar = () => {
             </span>
           </button>
         </div>
-        <div className="mt-4 flex items-center gap-2">
-          <UserButton
-            userProfileMode="navigation"
-            appearance={{
-              elements: {
-                userButtonAvatarBox: "w-10 h-10",
-                userButtonAvatar: "w-10 h-10",
-              },
-            }}
-          />
-          <span className="text-gray-300 font-medium"></span>
-        </div>
+        
       </SidebarFooter>
     </Sidebar>
   );
